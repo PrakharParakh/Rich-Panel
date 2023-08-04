@@ -10,9 +10,19 @@ import Firebase
 
 @main
 struct Rich_PanelApp: App {
+    @AppStorage("signIn") var isSignIn: Bool = false
+
+    init(){
+        FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if !isSignIn{
+                LoginView()
+            }
+            else{
+                ContentView()
+            }
         }
     }
 }

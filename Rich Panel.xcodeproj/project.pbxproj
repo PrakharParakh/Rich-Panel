@@ -12,20 +12,32 @@
 		33843AAC2A7D30E1000AE8BC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 33843AAB2A7D30E1000AE8BC /* FirebaseFirestore */; };
 		33843AAE2A7D30E1000AE8BC /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 33843AAD2A7D30E1000AE8BC /* FirebaseFirestoreSwift */; };
 		33843AB02A7D30E1000AE8BC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 33843AAF2A7D30E1000AE8BC /* FirebaseStorage */; };
+		33843AB52A7D31AA000AE8BC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33843AB42A7D31AA000AE8BC /* LoginView.swift */; };
+		33843AB82A7D35F4000AE8BC /* SignUpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33843AB72A7D35F4000AE8BC /* SignUpManager.swift */; };
+		33843ABA2A7D3727000AE8BC /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33843AB92A7D3727000AE8BC /* SignUpView.swift */; };
+		33843ABC2A7D53E6000AE8BC /* Plans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33843ABB2A7D53E6000AE8BC /* Plans.swift */; };
+		33843ABF2A7D5571000AE8BC /* PlansData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33843ABE2A7D5571000AE8BC /* PlansData.swift */; };
+		33843AC22A7D5714000AE8BC /* PlansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33843AC12A7D5714000AE8BC /* PlansView.swift */; };
 		33D882C22A7D26A200F3766E /* Rich_PanelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D882C12A7D26A200F3766E /* Rich_PanelApp.swift */; };
 		33D882C42A7D26A200F3766E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D882C32A7D26A200F3766E /* ContentView.swift */; };
 		33D882C62A7D26A300F3766E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D882C52A7D26A300F3766E /* Assets.xcassets */; };
 		33D882C92A7D26A300F3766E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D882C82A7D26A300F3766E /* Preview Assets.xcassets */; };
-		33D882D22A7D28B300F3766E /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33D882D12A7D28B300F3766E /* GoogleService-Info-2.plist */; };
+		33D882D22A7D28B300F3766E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33D882D12A7D28B300F3766E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33843AB42A7D31AA000AE8BC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		33843AB72A7D35F4000AE8BC /* SignUpManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpManager.swift; sourceTree = "<group>"; };
+		33843AB92A7D3727000AE8BC /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		33843ABB2A7D53E6000AE8BC /* Plans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plans.swift; sourceTree = "<group>"; };
+		33843ABE2A7D5571000AE8BC /* PlansData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansData.swift; sourceTree = "<group>"; };
+		33843AC12A7D5714000AE8BC /* PlansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansView.swift; sourceTree = "<group>"; };
 		33D882BE2A7D26A200F3766E /* Rich Panel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rich Panel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D882C12A7D26A200F3766E /* Rich_PanelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rich_PanelApp.swift; sourceTree = "<group>"; };
 		33D882C32A7D26A200F3766E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		33D882C52A7D26A300F3766E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33D882C82A7D26A300F3766E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		33D882D12A7D28B300F3766E /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		33D882D12A7D28B300F3766E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +56,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33843AB12A7D316A000AE8BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33843AC02A7D56E1000AE8BC /* Login */,
+				33843AC12A7D5714000AE8BC /* PlansView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33843AB22A7D3174000AE8BC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		33843AB32A7D317F000AE8BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33843ABB2A7D53E6000AE8BC /* Plans.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33843AB62A7D35DA000AE8BC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				33843AB72A7D35F4000AE8BC /* SignUpManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		33843ABD2A7D555C000AE8BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				33843ABE2A7D5571000AE8BC /* PlansData.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		33843AC02A7D56E1000AE8BC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				33843AB42A7D31AA000AE8BC /* LoginView.swift */,
+				33843AB92A7D3727000AE8BC /* SignUpView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		33D882B52A7D26A200F3766E = {
 			isa = PBXGroup;
 			children = (
@@ -65,8 +126,13 @@
 			children = (
 				33D882C12A7D26A200F3766E /* Rich_PanelApp.swift */,
 				33D882C32A7D26A200F3766E /* ContentView.swift */,
+				33843AB32A7D317F000AE8BC /* Model */,
+				33843AB12A7D316A000AE8BC /* View */,
+				33843AB22A7D3174000AE8BC /* ViewModel */,
+				33843AB62A7D35DA000AE8BC /* Manager */,
+				33843ABD2A7D555C000AE8BC /* Resources */,
 				33D882C52A7D26A300F3766E /* Assets.xcassets */,
-				33D882D12A7D28B300F3766E /* GoogleService-Info-2.plist */,
+				33D882D12A7D28B300F3766E /* GoogleService-Info.plist */,
 				33D882C72A7D26A300F3766E /* Preview Content */,
 			);
 			path = "Rich Panel";
@@ -150,7 +216,7 @@
 			files = (
 				33D882C92A7D26A300F3766E /* Preview Assets.xcassets in Resources */,
 				33D882C62A7D26A300F3766E /* Assets.xcassets in Resources */,
-				33D882D22A7D28B300F3766E /* GoogleService-Info-2.plist in Resources */,
+				33D882D22A7D28B300F3766E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33843AB52A7D31AA000AE8BC /* LoginView.swift in Sources */,
+				33843ABA2A7D3727000AE8BC /* SignUpView.swift in Sources */,
+				33843AB82A7D35F4000AE8BC /* SignUpManager.swift in Sources */,
+				33843AC22A7D5714000AE8BC /* PlansView.swift in Sources */,
+				33843ABF2A7D5571000AE8BC /* PlansData.swift in Sources */,
 				33D882C42A7D26A200F3766E /* ContentView.swift in Sources */,
+				33843ABC2A7D53E6000AE8BC /* Plans.swift in Sources */,
 				33D882C22A7D26A200F3766E /* Rich_PanelApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
