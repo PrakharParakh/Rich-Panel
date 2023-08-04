@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1072571691016-9lukt04jq9ftvvbj9ssiu1ch9atsbudr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1072571691016-9lukt04jq9ftvvbj9ssiu1ch9atsbudr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDwI-2226nSULvIRNod6ESAp7vEN5L7idU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1072571691016</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Prakhar.Rich-Panel</string>
+	<key>PROJECT_ID</key>
+	<string>richpanel-93e7b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>richpanel-93e7b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1072571691016:ios:b0f3f75c06cf9fc8b8a1bd</string>
+</dict>
+</plist>
