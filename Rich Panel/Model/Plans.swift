@@ -7,13 +7,15 @@
 
 import Foundation
 
-struct Plans{
+struct Plans: Identifiable{
+    var id = UUID()
     var devices: Devices
     var plan: Plan
     var duration: String
 }
 
-struct Plan{
+struct Plan: Identifiable,Encodable{
+    var id = UUID()
     var monthlyPrice: Int
     var videoQuality: String
     var resolution: String

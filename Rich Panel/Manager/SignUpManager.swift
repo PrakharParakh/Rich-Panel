@@ -24,7 +24,7 @@ class SignUpManager: ObservableObject{
     func addToDataBase(id: String,name: String){
         let db = Firestore.firestore()
         let collection = db.collection("Users")
-        collection.document(id).setData(["id":id, "Name": name])
+        collection.document(id).setData(["id":id, "Name": name,"Subscription": ""])
         self.success = true
     }
 }

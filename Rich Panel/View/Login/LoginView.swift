@@ -13,6 +13,7 @@ struct LoginView: View {
     @State var email: String = ""
     @State var password: String = ""
     @AppStorage("signIn") var isSignIn: Bool = false
+    @State var showAlert: Bool = false
     
     var body: some View {
         NavigationStack{
@@ -43,7 +44,14 @@ struct LoginView: View {
                 }
                 
                 Button{
-                    
+                    Auth.auth().signIn(withEmail: email, password: password){result,error in
+                        if error != nil{
+                            print(error?.localizedDescription)
+                            showAlert = true
+                            return
+                        }
+                        isSignIn = true
+                    }
                 }label: {
                     Text("Login")
                         .foregroundColor(.white)
@@ -58,6 +66,8 @@ struct LoginView: View {
                 }
             }
 
+        }.alert(isPresented: $showAlert) {
+            Alert(title: Text("Incorrect mail or password"))
         }
         
     }
